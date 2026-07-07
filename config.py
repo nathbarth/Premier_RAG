@@ -3,8 +3,8 @@ Module de configuration centralise.
 """
 
 EMBEDDING_MODEL_NAME = "distiluse-base-multilingual-cased-v2"
-LLM_MODEL_NAME = "llama-3.3-70b-versatile"
-MODERATION_MODEL_NAME = "meta-llama/llama-guard-4-12b"
+LLM_MODEL_NAME = "openai/gpt-oss-120b"
+MODERATION_MODEL_NAME = "openai/gpt-oss-safeguard-20b"
 
 CHROMA_DB_PATH = "./chroma_db"
 CHROMA_COLLECTION_NAME = "rag_demo_collection"
